@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Collector</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+</head>
+<body>
+	
+	
+	
+	  <div class="container">
+	    <div class="row">
+	    	<div class="col-md-12">
+	    		<div class="card">
+	    			<h5 class="card-header">Crystal Collector</h5>
+	    			<div class="card-body alert alert-warning">
+	    				<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+	    				<p class="card-text">You will be given a random number at the start of the game.</p>
+					    <p class="card-text">There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.</p>
+					    <p class="card-text">You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</p>
+				 		<p class="card-text">The value of each crystal is hidden from you until you click on it.</p>
+				 		<p class="card-text">Each time when the game starts, the game will change the values of each crystal.</p>
+	    			</div>
+	    		</div>
+	    	</div>
+	    </div>
+	    <div class="row">
+	    	<div class="col-md-4">
+	    		<div class="card">
+	    			<h5 class="card-header">Random Number</h5>
+	    			<div class="card-body">
+	    				<p class="card-text" id="targetNumber">text</p>
+	    			</div>
+	    		</div>
+	    	</div>
+	    	<div class="col-md-4">
+	    		<div class="card">
+	    			<h5 class="card-header"></h5>
+	    			<div class="card-body">
+	    				<p class="card-text" >Wins: <span id="wins"></span></p> 
+	    				<p class="card-text">Loses: <span id="loss"></span></p>
+	    			</div>
+	    		</div>
+	    	</div>
+	    	<div class="col-md-4">
+	    		<div class="card">
+	    			<h5 class="card-header">Your Total Score</h5>
+	    			<div class="card-body">
+	    				<p class="card-text" id="score">text</p>
+	    			</div>
+	    		</div>
+	    	</div>
+	    	
+	    </div>
+	</div>
+	<div class="crystals"></div>
+	
+</body>
+	
+</html>
